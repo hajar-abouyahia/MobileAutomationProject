@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/Authentification/TC00_AuthentificationAvecPwdVide","testCaseId":"Test Cases/Authentification/TC00_AuthentificationAvecPwdVide","iterationVariableName":""}
+{"testCaseName":"Test Cases/Authentification/TC01_AuthentificationAvecPwdInvalide","testCaseId":"Test Cases/Authentification/TC01_AuthentificationAvecPwdInvalide","iterationVariableName":""}
+{"testCaseName":"Test Cases/Authentification/TC02_AuthentificationAvecIdentifiantVide","testCaseId":"Test Cases/Authentification/TC02_AuthentificationAvecIdentifiantVide","iterationVariableName":""}
+{"testCaseName":"Test Cases/Authentification/TC03_AuthentificationAvecIdentifiantInvalide","testCaseId":"Test Cases/Authentification/TC03_AuthentificationAvecIdentifiantInvalide","iterationVariableName":""}
+{"testCaseName":"Test Cases/Authentification/TC04_AuthentificationAvecIdentifiantPwdInvalide","testCaseId":"Test Cases/Authentification/TC04_AuthentificationAvecIdentifiantPwdInvalide","iterationVariableName":""}
+{"testCaseName":"Test Cases/Authentification/TC05_AuthentificationAvecIdentifiantPwdVide","testCaseId":"Test Cases/Authentification/TC05_AuthentificationAvecIdentifiantPwdVide","iterationVariableName":""}
+{"testCaseName":"Test Cases/Authentification/TC06_AuthentificationValide","testCaseId":"Test Cases/Authentification/TC06_AuthentificationValide","iterationVariableName":""}

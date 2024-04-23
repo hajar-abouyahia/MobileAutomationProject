@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "EB3702AE7C2742C328A0602777E8363C",
+  "keywordClasses": [
+    {
+      "name": "com.commonKeyword.authentificationKeywords",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

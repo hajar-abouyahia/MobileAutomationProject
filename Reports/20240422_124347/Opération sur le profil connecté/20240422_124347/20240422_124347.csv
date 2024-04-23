@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Opération sur le profil connecté,,,,22-04-2024 12:43:52,22-04-2024 12:45:16,"1m - 23,976s",PASSED
+,,,,,,,
+Test Cases/Opération sur le profil connecté/TC00_ModificationDeProfileAvecNuméroTéléphoneInvalide,,,,22-04-2024 12:43:53,22-04-2024 12:45:00,"1m - 7,710s",PASSED
+apkkeyword = new com.communKeywords.apkKeywords(),,,,22-04-2024 12:43:53,22-04-2024 12:43:53,"0,016s",PASSED
+authkeyword = new com.communKeywords.authentificationKeywords(),,,,22-04-2024 12:43:53,22-04-2024 12:43:54,"0,017s",PASSED
+profileKeyword = new com.profileKeywords.profileKeywords(),,,,22-04-2024 12:43:54,22-04-2024 12:43:54,"0,017s",PASSED
+verificationKeyword = new com.communKeywords.verificationKeywords(),,,,22-04-2024 12:43:54,22-04-2024 12:43:54,"0,019s",PASSED
+apkkeyword.startApplication(),,,,22-04-2024 12:43:54,22-04-2024 12:44:27,"33,822s",PASSED
+apkkeyword.setLanguage(),,,,22-04-2024 12:44:27,22-04-2024 12:44:39,"11,563s",PASSED
+delay(1),,,,22-04-2024 12:44:39,22-04-2024 12:44:40,"1,020s",PASSED
+"authkeyword.setAuthData(immatriculation, Mdp)",,,,22-04-2024 12:44:40,22-04-2024 12:44:49,"8,845s",PASSED
+authkeyword.login(),,,,22-04-2024 12:44:49,22-04-2024 12:44:49,"0,387s",PASSED
+authkeyword.CancelAuthorization(),,,,22-04-2024 12:44:49,22-04-2024 12:44:52,"2,328s",PASSED
+profileKeyword.clickProfile(),,,,22-04-2024 12:44:52,22-04-2024 12:44:52,"0,919s",PASSED
+profileKeyword.openPhoneForm(),,,,22-04-2024 12:44:52,22-04-2024 12:44:54,"1,633s",PASSED
+profileKeyword.setNewNumber(NvNumero),,,,22-04-2024 12:44:54,22-04-2024 12:44:57,"3,268s",PASSED
+profileKeyword.checkTheBox(),,,,22-04-2024 12:44:57,22-04-2024 12:44:58,"0,868s",PASSED
+profileKeyword.enregistrer(),,,,22-04-2024 12:44:58,22-04-2024 12:44:59,"0,954s",PASSED
+alertPath = numValide,,,,22-04-2024 12:44:59,22-04-2024 12:44:59,"0,004s",PASSED
+"authkeyword.verifyalertPresent(alertPath, ""Veuillez saisir un numéro valide"")",,,,22-04-2024 12:44:59,22-04-2024 12:44:59,"0,311s",PASSED
+delay(1),,,,22-04-2024 12:44:59,22-04-2024 12:45:00,"1,007s",PASSED
+,,,,,,,
+Test Cases/Opération sur le profil connecté/TC01_ModificationDeProfileAvecNuméroTéléphoneVide,,,,22-04-2024 12:45:01,22-04-2024 12:45:07,"6,475s",PASSED
+verificationKeyword = new com.communKeywords.verificationKeywords(),,,,22-04-2024 12:45:01,22-04-2024 12:45:01,"0,002s",PASSED
+profileKeyword = new com.profileKeywords.profileKeywords(),,,,22-04-2024 12:45:01,22-04-2024 12:45:01,"0,001s",PASSED
+profileKeyword.resetPhonePage(),,,,22-04-2024 12:45:01,22-04-2024 12:45:02,"1,510s",PASSED
+profileKeyword.setNewNumber(NvNumero),,,,22-04-2024 12:45:02,22-04-2024 12:45:05,"2,735s",PASSED
+profileKeyword.enregistrer(),,,,22-04-2024 12:45:05,22-04-2024 12:45:06,"0,804s",PASSED
+alertPath = phoneNumber,,,,22-04-2024 12:45:06,22-04-2024 12:45:06,"0,001s",PASSED
+"verificationKeyword.verifyalertPresent(alertPath, ""Veuillez saisir votre numéro de téléphone"")",,,,22-04-2024 12:45:06,22-04-2024 12:45:06,"0,202s",PASSED
+delay(1),,,,22-04-2024 12:45:06,22-04-2024 12:45:07,"1,016s",PASSED
+,,,,,,,
+Test Cases/Opération sur le profil connecté/TC02_ModificationDeProfileSansAccepterLesConditionsD_utilisation,,,,22-04-2024 12:45:07,22-04-2024 12:45:16,"9,489s",PASSED
+apkkeyword = new com.communKeywords.apkKeywords(),,,,22-04-2024 12:45:07,22-04-2024 12:45:07,"0,002s",PASSED
+authkeyword = new com.communKeywords.authentificationKeywords(),,,,22-04-2024 12:45:07,22-04-2024 12:45:07,"0,001s",PASSED
+profileKeyword = new com.profileKeywords.profileKeywords(),,,,22-04-2024 12:45:07,22-04-2024 12:45:07,"0,002s",PASSED
+verificationKeyword = new com.communKeywords.verificationKeywords(),,,,22-04-2024 12:45:07,22-04-2024 12:45:07,"0,001s",PASSED
+profileKeyword.resetPhonePage(),,,,22-04-2024 12:45:07,22-04-2024 12:45:08,"1,066s",PASSED
+profileKeyword.setNewNumber(NvNumero),,,,22-04-2024 12:45:08,22-04-2024 12:45:10,"2,033s",PASSED
+profileKeyword.checkTheBox(),,,,22-04-2024 12:45:10,22-04-2024 12:45:11,"0,934s",PASSED
+profileKeyword.enregistrer(),,,,22-04-2024 12:45:11,22-04-2024 12:45:12,"1,015s",PASSED
+alertPath = checkButton,,,,22-04-2024 12:45:12,22-04-2024 12:45:12,"0,004s",PASSED
+"authkeyword.verifyalertPresent(alertPath, ""Veuillez cocher la case pour continuer"")",,,,22-04-2024 12:45:12,22-04-2024 12:45:13,"0,264s",PASSED
+delay(1),,,,22-04-2024 12:45:13,22-04-2024 12:45:14,"1,007s",PASSED
+profileKeyword.closeForm(),,,,22-04-2024 12:45:14,22-04-2024 12:45:14,"0,254s",PASSED
+closeApplication(),,,,22-04-2024 12:45:14,22-04-2024 12:45:16,"2,626s",PASSED

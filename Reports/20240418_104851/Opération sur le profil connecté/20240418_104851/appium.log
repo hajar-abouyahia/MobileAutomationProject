@@ -1,0 +1,119 @@
+[35m[Appium][39m Welcome to Appium v2.5.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m62518[39m }
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[35m[Appium][39m Appium REST http interface listener started on http://0.0.0.0:62518/wd/hub
+[35m[Appium][39m You can provide the following URLs in your client code to connect to this server:
+[35m[Appium][39m 	http://192.168.56.1:62518/wd/hub
+[35m[Appium][39m 	http://192.168.10.41:62518/wd/hub
+[35m[Appium][39m 	http://127.0.0.1:62518/wd/hub (only accessible from the same host)
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - uiautomator2@3.0.1 (automationName 'UiAutomator2')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 110[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"desiredCapabilities":{"appium:systemPort":62517,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"13","appium:noReset":false,"appium:udid":"emulator-5554","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 13)","platformName":"Android","appium:app":"C:\\Users\\DELL\\Downloads\\app-release_last.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\DELL\\Downloads\\app-release_last.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 13)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"13","appium:systemPort":62517,"appium:udid":"emulator-5554","platformName":"android"}]}}[39m
+[38;5;32m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;32m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver
+[38;5;16m[AppiumDriver@1e17][0m Appium v2.5.1 creating new AndroidUiautomator2Driver (v3.0.1) session
+[38;5;16m[AppiumDriver@1e17][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@1e17][0m Appium's BaseDriver version is 9.5.2
+[38;5;16m[AppiumDriver@1e17][0m AndroidUiautomator2Driver's BaseDriver version is 9.5.2
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m Session created with session id: 1bc97f08-b005-4ac8-a617-a33607543034
+[38;5;64m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\DELL\.katalon\tools\android_sdk' (newest first):
+[38;5;64m[ADB][0m     C:\Users\DELL\.katalon\tools\android_sdk\build-tools\29.0.3
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\DELL\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m Retrieving device list
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m Using device: emulator-5554
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\DELL\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;32m[BaseDriver][0m Using local app 'C:\Users\DELL\Downloads\app-release_last.apk'
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m Relaxing hidden api policy
+[38;5;64m[ADB][0m Package name: 'ma.neoxia.macnss'
+[38;5;64m[ADB][0m Main activity name: 'ma.neoxia.macnss.MainActivity'
+[38;5;64m[ADB][0m Using 'apksigner.jar' from 'C:\Users\DELL\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[38;5;64m[ADB][0m 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[38;5;64m[ADB][0m 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.1.apk' is signed with the default certificate
+[38;5;64m[ADB][0m 'C:\Users\DELL\Downloads\app-release_last.apk' is signed with a non-default certificate
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m Server packages are not going to be (re)installed
+[38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;64m[ADB][0m ma.neoxia.macnss was successfully uninstalled
+[38;5;64m[ADB][0m The application at 'C:\Users\DELL\Downloads\app-release_last.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;64m[ADB][0m The installation of 'app-release_last.apk' took 20766ms
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m Starting UIAutomator2 server 7.0.1
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m Using UIAutomator2 server from 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.1.apk' and test from 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m Determined the downstream protocol as 'W3C'
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m Screen already unlocked, doing nothing
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m Starting 'ma.neoxia.macnss/ma.neoxia.macnss.MainActivity and waiting for 'ma.neoxia.macnss/ma.neoxia.macnss.MainActivity'
+[38;5;64m[ADB][0m ma.neoxia.macnss was successfully uninstalled
+[38;5;48m[AndroidUiautomator2Driver@d8b7 (1bc97f08)][0m Restoring hidden api policy to the device default configuration
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m62190 ms - 1138[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 110[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"desiredCapabilities":{"appium:systemPort":62997,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"13","appium:noReset":false,"appium:udid":"emulator-5554","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 13)","platformName":"Android","appium:app":"C:\\Users\\DELL\\Downloads\\app-release_last.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\DELL\\Downloads\\app-release_last.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 13)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"13","appium:systemPort":62997,"appium:udid":"emulator-5554","platformName":"android"}]}}[39m
+[38;5;32m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;32m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver
+[38;5;16m[AppiumDriver@1e17][0m Appium v2.5.1 creating new AndroidUiautomator2Driver (v3.0.1) session
+[38;5;16m[AppiumDriver@1e17][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@1e17][0m Appium's BaseDriver version is 9.5.2
+[38;5;16m[AppiumDriver@1e17][0m AndroidUiautomator2Driver's BaseDriver version is 9.5.2
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m Session created with session id: 626ed3d9-96ac-4843-a562-b5678b1697cc
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\DELL\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m Retrieving device list
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m Using device: emulator-5554
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\DELL\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;32m[BaseDriver][0m Using local app 'C:\Users\DELL\Downloads\app-release_last.apk'
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m Relaxing hidden api policy
+[38;5;64m[ADB][0m Package name: 'ma.neoxia.macnss'
+[38;5;64m[ADB][0m Main activity name: 'ma.neoxia.macnss.MainActivity'
+[38;5;64m[ADB][0m ma.neoxia.macnss was not uninstalled, because it was not present on the device
+[38;5;64m[ADB][0m The application at 'C:\Users\DELL\Downloads\app-release_last.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m Server packages are not going to be (re)installed
+[38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;64m[ADB][0m The installation of 'app-release_last.apk' took 8129ms
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m Starting UIAutomator2 server 7.0.1
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m Using UIAutomator2 server from 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.1.apk' and test from 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m socket hang up
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m-[39m [90m- ms - -[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m Determined the downstream protocol as 'W3C'
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m Screen already unlocked, doing nothing
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m Starting 'ma.neoxia.macnss/ma.neoxia.macnss.MainActivity and waiting for 'ma.neoxia.macnss/ma.neoxia.macnss.MainActivity'
+[38;5;16m[AppiumDriver@1e17][0m New AndroidUiautomator2Driver session created successfully, session 626ed3d9-96ac-4843-a562-b5678b1697cc added to master session list
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@1e17][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@1e17][0m Removing session '626ed3d9-96ac-4843-a562-b5678b1697cc' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m ma.neoxia.macnss was successfully uninstalled
+[38;5;48m[AndroidUiautomator2Driver@931e (626ed3d9)][0m Restoring hidden api policy to the device default configuration

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Authentification" time="90.155" tests="3" failures="0" errors="0">
+   <testsuite name="Authentification" tests="3" failures="0" errors="0" time="90.155" skipped="0" timestamp="17-04-2024T17:14:04" hostname="DELL - DESKTOP-A1R3ASP" id="Test Suites/Authentification">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DELL\\git\\MobileAutomationProject\\Reports\\20240417_171354\\Authentification\\20240417_171354"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\git\\MobileAutomationProject\\Reports\\20240417_171354\\Authentification\\20240417_171354\\appium.log, C:\\Users\\DELL\\git\\MobileAutomationProject\\Reports\\20240417_171354\\Authentification\\20240417_171354\\appium_error.log, C:\\Users\\DELL\\git\\MobileAutomationProject\\Reports\\20240417_171354\\Authentification\\20240417_171354\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - DESKTOP-A1R3ASP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.1&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.1"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Authentification/TC00_AuthentificationAvecPwdVide" time="47.053" classname="Test Cases/Authentification/TC00_AuthentificationAvecPwdVide" status="PASSED">
+         <system-out><![CDATA[17-04-2024T17:14:21 - [TEST_CASE][PASSED] - Test Cases/Authentification/TC00_AuthentificationAvecPwdVide: Test Cases/Authentification/TC00_AuthentificationAvecPwdVide
+
+17-04-2024T17:14:21 - [TEST_STEP][PASSED] - apkkeyword = new com.communKeywords.apkKeywords(): null
+
+17-04-2024T17:14:21 - [TEST_STEP][PASSED] - authkeyword = new com.communKeywords.authentificationKeywords(): null
+
+17-04-2024T17:14:21 - [TEST_STEP][PASSED] - apkkeyword.startApplication(): Started app at: 'C:\Users\DELL\Downloads\app-release_last.apk'
+
+17-04-2024T17:14:43 - [MESSAGE][PASSED] - Started app at: 'C:\Users\DELL\Downloads\app-release_last.apk'
+
+17-04-2024T17:14:43 - [TEST_STEP][PASSED] - apkkeyword.setLanguage(): Tapped on element 'Object Repository/Authentification/android.widget.Button-cest compris'
+
+17-04-2024T17:14:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:14:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.ViewGroup'
+
+17-04-2024T17:14:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:14:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/language/android.widget.Button -Confirm language'
+
+17-04-2024T17:14:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-04-2024T17:14:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:14:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-Ressayer'
+
+17-04-2024T17:14:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:14:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.CheckBox (1)'
+
+17-04-2024T17:14:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:14:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.Button-cest compris'
+
+17-04-2024T17:14:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+17-04-2024T17:14:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+17-04-2024T17:14:57 - [TEST_STEP][PASSED] - authkeyword.setAuthData(immatriculation, Mdp): Delayed 1 second(s)
+
+17-04-2024T17:14:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:14:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T17:14:59 - [MESSAGE][PASSED] - Send keys '121571775' on test object 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' successfully.
+
+17-04-2024T17:14:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:15:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T17:15:02 - [MESSAGE][PASSED] - Send keys '' on test object 'Object Repository/Authentification/android.widget.EditText - Mot de passe' successfully.
+
+17-04-2024T17:15:05 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T17:15:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+17-04-2024T17:15:06 - [TEST_STEP][PASSED] - authkeyword.Login(): Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T17:15:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:15:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T17:15:06 - [TEST_STEP][PASSED] - alertPath = authPage: null
+
+17-04-2024T17:15:06 - [TEST_STEP][PASSED] - authkeyword.verifyalertPresent(alertPath, "Me connecter"): Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Me connecter' are matched.
+
+17-04-2024T17:15:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Me connecter' are matched.
+
+17-04-2024T17:15:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+17-04-2024T17:15:08 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentification/TC06_AuthentificationValide" time="19.259" classname="Test Cases/Authentification/TC06_AuthentificationValide" status="PASSED">
+         <system-out><![CDATA[17-04-2024T17:15:08 - [TEST_CASE][PASSED] - Test Cases/Authentification/TC06_AuthentificationValide: Test Cases/Authentification/TC06_AuthentificationValide
+
+17-04-2024T17:15:08 - [TEST_STEP][PASSED] - apkkeyword = new com.communKeywords.apkKeywords(): null
+
+17-04-2024T17:15:08 - [TEST_STEP][PASSED] - authkeyword = new com.communKeywords.authentificationKeywords(): null
+
+17-04-2024T17:15:08 - [TEST_STEP][PASSED] - authkeyword.resetLoginPage(): Keyboard is hidden
+
+17-04-2024T17:15:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:15:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T17:15:10 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' text is cleared
+
+17-04-2024T17:15:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:15:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T17:15:11 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - Mot de passe' text is cleared
+
+17-04-2024T17:15:14 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T17:15:14 - [TEST_STEP][PASSED] - authkeyword.setAuthData(immatriculation, Mdp): Delayed 1 second(s)
+
+17-04-2024T17:15:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:15:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T17:15:16 - [MESSAGE][PASSED] - Send keys '121571775
+' on test object 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' successfully.
+
+17-04-2024T17:15:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:15:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T17:15:19 - [MESSAGE][PASSED] - Send keys 'Pca@2023' on test object 'Object Repository/Authentification/android.widget.EditText - Mot de passe' successfully.
+
+17-04-2024T17:15:21 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T17:15:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+17-04-2024T17:15:22 - [TEST_STEP][PASSED] - authkeyword.Login(): Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T17:15:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:15:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T17:15:22 - [TEST_STEP][PASSED] - authkeyword.authvalide(): Tapped on element 'Object Repository/Authentification/android.widget.Button - ANNULER'
+
+17-04-2024T17:15:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:15:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.Button - ANNULER'
+
+17-04-2024T17:15:25 - [TEST_STEP][PASSED] - alertPath = bienvenue: null
+
+17-04-2024T17:15:25 - [TEST_STEP][PASSED] - authkeyword.verifyalertPresent(alertPath, "Bienvenue,"): Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Bienvenue,' are matched.
+
+17-04-2024T17:15:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Bienvenue,' are matched.
+
+17-04-2024T17:15:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+17-04-2024T17:15:27 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentification/TC07_SeDeconnecter" time="7.081" classname="Test Cases/Authentification/TC07_SeDeconnecter" status="PASSED">
+         <system-out><![CDATA[17-04-2024T17:15:27 - [TEST_CASE][PASSED] - Test Cases/Authentification/TC07_SeDeconnecter: Test Cases/Authentification/TC07_SeDeconnecter
+
+17-04-2024T17:15:27 - [TEST_STEP][PASSED] - authkeyword = new com.communKeywords.authentificationKeywords(): null
+
+17-04-2024T17:15:27 - [TEST_STEP][PASSED] - authkeyword.SeDeconnecter(): Tapped on element 'Object Repository/Authentification/android.widget.Button - OUI'
+
+17-04-2024T17:15:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:15:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.ImageView (1)'
+
+17-04-2024T17:15:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:15:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.TextView - Se dconnecter'
+
+17-04-2024T17:15:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T17:15:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.Button - OUI'
+
+17-04-2024T17:15:30 - [TEST_STEP][PASSED] - alertPath = authPage: null
+
+17-04-2024T17:15:30 - [TEST_STEP][PASSED] - authkeyword.verifyalertPresent(alertPath, "Me connecter"): Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Me connecter' are matched.
+
+17-04-2024T17:15:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Me connecter' are matched.
+
+17-04-2024T17:15:31 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+17-04-2024T17:15:34 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-04-2024T17:14:04 - [TEST_SUITE][FAILED] - Authentification: Test Cases/Authentification/TC00_AuthentificationAvecPwdVide FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app at: 'C:\Users\DELL\Downloads\app-release_last.apk'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.communKeywords.apkKeywords.startApplication(apkKeywords.groovy:26)
+	at TC00_AuthentificationAvecPwdVide.run(TC00_AuthentificationAvecPwdVide:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1713370434515.run(TempTestSuite1713370434515.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.1.apk'. Original error: OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000000c0000000, 268435456, 0) failed; error='Le fichier de pagination est insuffisant pour terminer cette op�ration' (DOS error/errno=1455)
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-A1R3ASP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.1.apk'. Original error: OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000000c0000000, 268435456, 0) failed; error='Le fichier de pagination est insuffisant pour terminer cette op�ration' (DOS error/errno=1455)
+
+    at getResponseForW3CError (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1118:9)
+    at asyncHandler (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:491:57)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-A1R3ASP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SwipeableAndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:23)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:560)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:542)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:589)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:502)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.communKeywords.apkKeywords.startApplication(apkKeywords.groovy:26)
+	at Script1713345810206.run(Script1713345810206.groovy:27)
+	... 15 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	... 41 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.1.apk'. Original error: OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000000c0000000, 268435456, 0) failed; error='Le fichier de pagination est insuffisant pour terminer cette op�ration' (DOS error/errno=1455)
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-A1R3ASP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.1.apk'. Original error: OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000000c0000000, 268435456, 0) failed; error='Le fichier de pagination est insuffisant pour terminer cette op�ration' (DOS error/errno=1455)
+
+    at getResponseForW3CError (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1118:9)
+    at asyncHandler (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:491:57)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:23)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:560)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:542)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:589)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:502)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.communKeywords.apkKeywords.startApplication(apkKeywords.groovy:26)
+	at TC00_AuthentificationAvecPwdVide.run(TC00_AuthentificationAvecPwdVide:27)
+	... 15 more]]></system-out>
+      <system-err><![CDATA[17-04-2024T17:14:04 - [TEST_SUITE][FAILED] - Authentification: Test Cases/Authentification/TC00_AuthentificationAvecPwdVide FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app at: 'C:\Users\DELL\Downloads\app-release_last.apk'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.communKeywords.apkKeywords.startApplication(apkKeywords.groovy:26)
+	at TC00_AuthentificationAvecPwdVide.run(TC00_AuthentificationAvecPwdVide:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1713370434515.run(TempTestSuite1713370434515.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.1.apk'. Original error: OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000000c0000000, 268435456, 0) failed; error='Le fichier de pagination est insuffisant pour terminer cette op�ration' (DOS error/errno=1455)
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-A1R3ASP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.1.apk'. Original error: OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000000c0000000, 268435456, 0) failed; error='Le fichier de pagination est insuffisant pour terminer cette op�ration' (DOS error/errno=1455)
+
+    at getResponseForW3CError (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1118:9)
+    at asyncHandler (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:491:57)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-A1R3ASP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SwipeableAndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:23)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:560)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:542)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:589)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:502)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.communKeywords.apkKeywords.startApplication(apkKeywords.groovy:26)
+	at Script1713345810206.run(Script1713345810206.groovy:27)
+	... 15 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	... 41 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.1.apk'. Original error: OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000000c0000000, 268435456, 0) failed; error='Le fichier de pagination est insuffisant pour terminer cette op�ration' (DOS error/errno=1455)
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-A1R3ASP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\DELL\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.1.apk'. Original error: OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000000c0000000, 268435456, 0) failed; error='Le fichier de pagination est insuffisant pour terminer cette op�ration' (DOS error/errno=1455)
+
+    at getResponseForW3CError (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1118:9)
+    at asyncHandler (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:491:57)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:23)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:560)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:542)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:589)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:502)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at com.communKeywords.apkKeywords.startApplication(apkKeywords.groovy:26)
+	at TC00_AuthentificationAvecPwdVide.run(TC00_AuthentificationAvecPwdVide:27)
+	... 15 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Opération sur le profil connecté" time="83.976" tests="3" failures="0" errors="0">
+   <testsuite name="Opération sur le profil connecté" tests="3" failures="0" errors="0" time="83.976" skipped="0" timestamp="22-04-2024T12:43:52" hostname="DELL - DESKTOP-A1R3ASP" id="Test Suites/Opération sur le profil connecté">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DELL\\git\\MobileAutomationProject\\Reports\\20240422_124347\\Op\u00E9ration sur le profil connect\u00E9\\20240422_124347"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\git\\MobileAutomationProject\\Reports\\20240422_124347\\Op\u00E9ration sur le profil connect\u00E9\\20240422_124347\\appium.log, C:\\Users\\DELL\\git\\MobileAutomationProject\\Reports\\20240422_124347\\Op\u00E9ration sur le profil connect\u00E9\\20240422_124347\\appium_error.log, C:\\Users\\DELL\\git\\MobileAutomationProject\\Reports\\20240422_124347\\Op\u00E9ration sur le profil connect\u00E9\\20240422_124347\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - DESKTOP-A1R3ASP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.1&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.1"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Opération sur le profil connecté/TC00_ModificationDeProfileAvecNuméroTéléphoneInvalide" time="67.71" classname="Test Cases/Opération sur le profil connecté/TC00_ModificationDeProfileAvecNuméroTéléphoneInvalide" status="PASSED">
+         <system-out><![CDATA[22-04-2024T12:43:53 - [TEST_CASE][PASSED] - Test Cases/Opération sur le profil connecté/TC00_ModificationDeProfileAvecNuméroTéléphoneInvalide: Test Cases/Opération sur le profil connecté/TC00_ModificationDeProfileAvecNuméroTéléphoneInvalide
+
+22-04-2024T12:43:53 - [TEST_STEP][PASSED] - apkkeyword = new com.communKeywords.apkKeywords(): null
+
+22-04-2024T12:43:53 - [TEST_STEP][PASSED] - authkeyword = new com.communKeywords.authentificationKeywords(): null
+
+22-04-2024T12:43:54 - [TEST_STEP][PASSED] - profileKeyword = new com.profileKeywords.profileKeywords(): null
+
+22-04-2024T12:43:54 - [TEST_STEP][PASSED] - verificationKeyword = new com.communKeywords.verificationKeywords(): null
+
+22-04-2024T12:43:54 - [TEST_STEP][PASSED] - apkkeyword.startApplication(): Started app at: 'C:\Users\DELL\Downloads\app-release_last.apk'
+
+22-04-2024T12:43:54 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+22-04-2024T12:44:04 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+22-04-2024T12:44:04 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\DELL\.appium
+
+22-04-2024T12:44:04 - [MESSAGE][INFO] - appium outlog: C:\Users\DELL\git\MobileAutomationProject\Reports\20240422_124347\Opération sur le profil connecté\20240422_124347\appium.log
+
+22-04-2024T12:44:04 - [MESSAGE][INFO] - appium errlog: C:\Users\DELL\git\MobileAutomationProject\Reports\20240422_124347\Opération sur le profil connecté\20240422_124347\appium_error.log
+
+22-04-2024T12:44:07 - [MESSAGE][INFO] - Appium server started on port 58 393
+
+22-04-2024T12:44:27 - [MESSAGE][PASSED] - Started app at: 'C:\Users\DELL\Downloads\app-release_last.apk'
+
+22-04-2024T12:44:27 - [TEST_STEP][PASSED] - apkkeyword.setLanguage(): Tapped on element 'Object Repository/Authentification/android.widget.Button-cest compris'
+
+22-04-2024T12:44:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:44:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.ViewGroup'
+
+22-04-2024T12:44:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:44:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/language/android.widget.Button -Confirm language'
+
+22-04-2024T12:44:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+22-04-2024T12:44:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:44:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-Ressayer'
+
+22-04-2024T12:44:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:44:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.CheckBox (1)'
+
+22-04-2024T12:44:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:44:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.Button-cest compris'
+
+22-04-2024T12:44:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+22-04-2024T12:44:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+22-04-2024T12:44:40 - [TEST_STEP][PASSED] - authkeyword.setAuthData(immatriculation, Mdp): Delayed 1 second(s)
+
+22-04-2024T12:44:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:44:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+22-04-2024T12:44:43 - [MESSAGE][PASSED] - Send keys '121571775' on test object 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' successfully.
+
+22-04-2024T12:44:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:44:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+22-04-2024T12:44:45 - [MESSAGE][PASSED] - Send keys 'Pca@2023' on test object 'Object Repository/Authentification/android.widget.EditText - Mot de passe' successfully.
+
+22-04-2024T12:44:48 - [MESSAGE][PASSED] - Keyboard is hidden
+
+22-04-2024T12:44:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+22-04-2024T12:44:49 - [TEST_STEP][PASSED] - authkeyword.login(): Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+22-04-2024T12:44:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:44:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+22-04-2024T12:44:49 - [TEST_STEP][PASSED] - authkeyword.CancelAuthorization(): Tapped on element 'Object Repository/Authentification/android.widget.Button - ANNULER'
+
+22-04-2024T12:44:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:44:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.Button - ANNULER'
+
+22-04-2024T12:44:52 - [TEST_STEP][PASSED] - profileKeyword.clickProfile(): Tapped on element 'Object Repository/Opération sur le profile connecté/android.view.ViewGroup-Profile'
+
+22-04-2024T12:44:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:44:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Opération sur le profile connecté/android.view.ViewGroup-Profile'
+
+22-04-2024T12:44:52 - [TEST_STEP][PASSED] - profileKeyword.openPhoneForm(): Tapped on element 'Object Repository/Opération sur le profile connecté/android.view.ViewGroup-Num bouton modifier'
+
+22-04-2024T12:44:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:44:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Opération sur le profile connecté/android.view.ViewGroup-Num bouton modifier'
+
+22-04-2024T12:44:54 - [TEST_STEP][PASSED] - profileKeyword.setNewNumber(NvNumero): Send keys '69874588' on test object 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212' successfully.
+
+22-04-2024T12:44:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:44:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212'
+
+22-04-2024T12:44:57 - [MESSAGE][PASSED] - Send keys '69874588' on test object 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212' successfully.
+
+22-04-2024T12:44:57 - [TEST_STEP][PASSED] - profileKeyword.checkTheBox(): Tapped on element 'Object Repository/Opération sur le profile connecté/android.widget.CheckBox'
+
+22-04-2024T12:44:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:44:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Opération sur le profile connecté/android.widget.CheckBox'
+
+22-04-2024T12:44:58 - [TEST_STEP][PASSED] - profileKeyword.enregistrer(): Tapped on element 'Object Repository/Opération sur le profile connecté/android.view.View-bouton Enregistrer Numero'
+
+22-04-2024T12:44:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:44:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Opération sur le profile connecté/android.view.View-bouton Enregistrer Numero'
+
+22-04-2024T12:44:59 - [TEST_STEP][PASSED] - alertPath = numValide: null
+
+22-04-2024T12:44:59 - [TEST_STEP][PASSED] - authkeyword.verifyalertPresent(alertPath, "Veuillez saisir un numéro valide"): Actual text and expected text of test object 'Object Repository/Opération sur le profile connecté/android.widget.TextView - Veuillez saisir un numero valide' are matched.
+
+22-04-2024T12:44:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Opération sur le profile connecté/android.widget.TextView - Veuillez saisir un numero valide' are matched.
+
+22-04-2024T12:44:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+22-04-2024T12:45:00 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Opération sur le profil connecté/TC01_ModificationDeProfileAvecNuméroTéléphoneVide" time="6.475" classname="Test Cases/Opération sur le profil connecté/TC01_ModificationDeProfileAvecNuméroTéléphoneVide" status="PASSED">
+         <system-out><![CDATA[22-04-2024T12:45:01 - [TEST_CASE][PASSED] - Test Cases/Opération sur le profil connecté/TC01_ModificationDeProfileAvecNuméroTéléphoneVide: Test Cases/Opération sur le profil connecté/TC01_ModificationDeProfileAvecNuméroTéléphoneVide
+
+22-04-2024T12:45:01 - [TEST_STEP][PASSED] - verificationKeyword = new com.communKeywords.verificationKeywords(): null
+
+22-04-2024T12:45:01 - [TEST_STEP][PASSED] - profileKeyword = new com.profileKeywords.profileKeywords(): null
+
+22-04-2024T12:45:01 - [TEST_STEP][PASSED] - profileKeyword.resetPhonePage(): Element 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212' text is cleared
+
+22-04-2024T12:45:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:45:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212'
+
+22-04-2024T12:45:02 - [MESSAGE][PASSED] - Element 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212' text is cleared
+
+22-04-2024T12:45:02 - [TEST_STEP][PASSED] - profileKeyword.setNewNumber(NvNumero): Send keys '' on test object 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212' successfully.
+
+22-04-2024T12:45:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:45:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212'
+
+22-04-2024T12:45:05 - [MESSAGE][PASSED] - Send keys '' on test object 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212' successfully.
+
+22-04-2024T12:45:05 - [TEST_STEP][PASSED] - profileKeyword.enregistrer(): Tapped on element 'Object Repository/Opération sur le profile connecté/android.view.View-bouton Enregistrer Numero'
+
+22-04-2024T12:45:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:45:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Opération sur le profile connecté/android.view.View-bouton Enregistrer Numero'
+
+22-04-2024T12:45:06 - [TEST_STEP][PASSED] - alertPath = phoneNumber: null
+
+22-04-2024T12:45:06 - [TEST_STEP][PASSED] - verificationKeyword.verifyalertPresent(alertPath, "Veuillez saisir votre numéro de téléphone"): Actual text and expected text of test object 'Object Repository/Opération sur le profile connecté/android.widget.TextView - Veuillez saisir votre numero de telephone' are matched.
+
+22-04-2024T12:45:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Opération sur le profile connecté/android.widget.TextView - Veuillez saisir votre numero de telephone' are matched.
+
+22-04-2024T12:45:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+22-04-2024T12:45:07 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Opération sur le profil connecté/TC02_ModificationDeProfileSansAccepterLesConditionsD_utilisation" time="9.489" classname="Test Cases/Opération sur le profil connecté/TC02_ModificationDeProfileSansAccepterLesConditionsD_utilisation" status="PASSED">
+         <system-out><![CDATA[22-04-2024T12:45:07 - [TEST_CASE][PASSED] - Test Cases/Opération sur le profil connecté/TC02_ModificationDeProfileSansAccepterLesConditionsD_utilisation: Test Cases/Opération sur le profil connecté/TC02_ModificationDeProfileSansAccepterLesConditionsD_utilisation
+
+22-04-2024T12:45:07 - [TEST_STEP][PASSED] - apkkeyword = new com.communKeywords.apkKeywords(): null
+
+22-04-2024T12:45:07 - [TEST_STEP][PASSED] - authkeyword = new com.communKeywords.authentificationKeywords(): null
+
+22-04-2024T12:45:07 - [TEST_STEP][PASSED] - profileKeyword = new com.profileKeywords.profileKeywords(): null
+
+22-04-2024T12:45:07 - [TEST_STEP][PASSED] - verificationKeyword = new com.communKeywords.verificationKeywords(): null
+
+22-04-2024T12:45:07 - [TEST_STEP][PASSED] - profileKeyword.resetPhonePage(): Element 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212' text is cleared
+
+22-04-2024T12:45:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:45:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212'
+
+22-04-2024T12:45:08 - [MESSAGE][PASSED] - Element 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212' text is cleared
+
+22-04-2024T12:45:08 - [TEST_STEP][PASSED] - profileKeyword.setNewNumber(NvNumero): Send keys '634222728' on test object 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212' successfully.
+
+22-04-2024T12:45:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:45:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212'
+
+22-04-2024T12:45:10 - [MESSAGE][PASSED] - Send keys '634222728' on test object 'Object Repository/Opération sur le profile connecté/android.widget.EditText - 212' successfully.
+
+22-04-2024T12:45:10 - [TEST_STEP][PASSED] - profileKeyword.checkTheBox(): Tapped on element 'Object Repository/Opération sur le profile connecté/android.widget.CheckBox'
+
+22-04-2024T12:45:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:45:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Opération sur le profile connecté/android.widget.CheckBox'
+
+22-04-2024T12:45:11 - [TEST_STEP][PASSED] - profileKeyword.enregistrer(): Tapped on element 'Object Repository/Opération sur le profile connecté/android.view.View-bouton Enregistrer Numero'
+
+22-04-2024T12:45:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:45:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Opération sur le profile connecté/android.view.View-bouton Enregistrer Numero'
+
+22-04-2024T12:45:12 - [TEST_STEP][PASSED] - alertPath = checkButton: null
+
+22-04-2024T12:45:12 - [TEST_STEP][PASSED] - authkeyword.verifyalertPresent(alertPath, "Veuillez cocher la case pour continuer"): Actual text and expected text of test object 'Object Repository/Opération sur le profile connecté/android.widget.TextView - Veuillez cocher la case pour continuer' are matched.
+
+22-04-2024T12:45:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Opération sur le profile connecté/android.widget.TextView - Veuillez cocher la case pour continuer' are matched.
+
+22-04-2024T12:45:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+22-04-2024T12:45:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+22-04-2024T12:45:14 - [TEST_STEP][PASSED] - profileKeyword.closeForm(): Tapped on element 'Object Repository/Opération sur le profile connecté/android.view.ViewGroup-Bouton X'
+
+22-04-2024T12:45:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-04-2024T12:45:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Opération sur le profile connecté/android.view.ViewGroup-Bouton X'
+
+22-04-2024T12:45:14 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+22-04-2024T12:45:16 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-04-2024T12:43:52 - [TEST_SUITE][PASSED] - Opération sur le profil connecté: Test Cases/Opération sur le profil connecté/TC02_ModificationDeProfileSansAccepterLesConditionsD_utilisation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

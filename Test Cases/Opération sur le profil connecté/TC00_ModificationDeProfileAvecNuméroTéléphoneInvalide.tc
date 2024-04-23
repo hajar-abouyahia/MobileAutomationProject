@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC00_ModificationDeProfileAvecNuméroTéléphoneInvalide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5bfa9714-ef95-4dc2-9db1-64181eca2aca</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>102061f4-3f1a-40ca-9a46-8b776af057f1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4750be91-0e8d-47d4-b149-025f93ab1fc3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>589d0a1c-35b1-426e-b44e-c2c32d2f134b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'121571775'</defaultValue>
+      <description></description>
+      <id>102061f4-3f1a-40ca-9a46-8b776af057f1</id>
+      <masked>false</masked>
+      <name>immatriculation</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pca@2023'</defaultValue>
+      <description></description>
+      <id>4750be91-0e8d-47d4-b149-025f93ab1fc3</id>
+      <masked>false</masked>
+      <name>Mdp</name>
+   </variable>
+   <variable>
+      <defaultValue>'69874588'</defaultValue>
+      <description></description>
+      <id>589d0a1c-35b1-426e-b44e-c2c32d2f134b</id>
+      <masked>false</masked>
+      <name>NvNumero</name>
+   </variable>
+</TestCaseEntity>

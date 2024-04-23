@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Opération sur le profil connecté</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>753bce56-2041-4d9b-9321-eab4d2fca15b</testSuiteGuid>
+   <testCaseLink>
+      <guid>34498747-7f97-4b6f-adfd-bc318473a17f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Opération sur le profil connecté/TC00_ModificationDeProfileAvecNuméroTéléphoneInvalide</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>102061f4-3f1a-40ca-9a46-8b776af057f1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4750be91-0e8d-47d4-b149-025f93ab1fc3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>589d0a1c-35b1-426e-b44e-c2c32d2f134b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cafac149-39b5-408f-a65d-4ffe11c0111d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Opération sur le profil connecté/TC01_ModificationDeProfileAvecNuméroTéléphoneVide</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3ba54d72-8324-4d22-9f3f-f319fa7137dc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f8cd1074-892e-4e3a-8f45-29fab0fe4074</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Opération sur le profil connecté/TC02_ModificationDeProfileSansAccepterLesConditionsD_utilisation</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dbf01b87-1824-4a21-8b86-395514280b1a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3680c0ff-7c40-44c0-80a0-9a6c46fe35fd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>93d79035-b73f-4ca4-b3c7-12e663392cf0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

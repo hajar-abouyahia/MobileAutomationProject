@@ -1,0 +1,80 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authentification,,,,17-04-2024 14:24:24,17-04-2024 14:28:03,"3m - 38,449s",PASSED
+,,,,,,,
+Test Cases/Authentification/TC00_AuthentificationAvecPwdVide,,,,17-04-2024 14:24:25,17-04-2024 14:25:24,"59,282s",PASSED
+apkkeyword = new com.communKeywords.apkKeywords(),,,,17-04-2024 14:24:25,17-04-2024 14:24:25,"0,020s",PASSED
+authkeyword = new com.communKeywords.authentificationKeywords(),,,,17-04-2024 14:24:25,17-04-2024 14:24:25,"0,019s",PASSED
+apkkeyword.startApplication(),,,,17-04-2024 14:24:25,17-04-2024 14:24:53,"27,722s",PASSED
+apkkeyword.setLanguage(),,,,17-04-2024 14:24:53,17-04-2024 14:25:04,"11,155s",PASSED
+delay(5),,,,17-04-2024 14:25:04,17-04-2024 14:25:09,"5,007s",PASSED
+"authkeyword.setAuthData(immatriculation, Mdp)",,,,17-04-2024 14:25:09,17-04-2024 14:25:18,"9,012s",PASSED
+authkeyword.Login(),,,,17-04-2024 14:25:18,17-04-2024 14:25:18,"0,348s",PASSED
+alertPath = authPage,,,,17-04-2024 14:25:18,17-04-2024 14:25:18,"0,003s",PASSED
+"authkeyword.verifyalertPresent(alertPath, ""Me connecter"")",,,,17-04-2024 14:25:18,17-04-2024 14:25:19,"0,490s",PASSED
+delay(5),,,,17-04-2024 14:25:19,17-04-2024 14:25:24,"5,013s",PASSED
+,,,,,,,
+Test Cases/Authentification/TC01_AuthentificationAvecPwdInvalide,,,,17-04-2024 14:25:24,17-04-2024 14:25:47,"23,237s",PASSED
+apkkeyword = new com.communKeywords.apkKeywords(),,,,17-04-2024 14:25:24,17-04-2024 14:25:24,"0,002s",PASSED
+authkeyword = new com.communKeywords.authentificationKeywords(),,,,17-04-2024 14:25:24,17-04-2024 14:25:24,"0,002s",PASSED
+authkeyword.resetLoginPage(),,,,17-04-2024 14:25:24,17-04-2024 14:25:33,"8,657s",PASSED
+"authkeyword.setAuthData(immatriculation, Mdp)",,,,17-04-2024 14:25:33,17-04-2024 14:25:40,"7,253s",PASSED
+authkeyword.Login(),,,,17-04-2024 14:25:40,17-04-2024 14:25:41,"0,387s",PASSED
+alertPath = identifiantMdpInvalid,,,,17-04-2024 14:25:41,17-04-2024 14:25:41,"0,002s",PASSED
+"authkeyword.verifyalertPresent(alertPath, ""Identifiant ou mot de passe invalide"")",,,,17-04-2024 14:25:41,17-04-2024 14:25:42,"1,405s",PASSED
+delay(5),,,,17-04-2024 14:25:42,17-04-2024 14:25:47,"5,017s",PASSED
+authkeyword.ReturnToAuthPage(),,,,17-04-2024 14:25:47,17-04-2024 14:25:47,"0,270s",PASSED
+,,,,,,,
+Test Cases/Authentification/TC02_AuthentificationAvecIdentifiantVide,,,,17-04-2024 14:25:47,17-04-2024 14:26:10,"23,024s",PASSED
+apkkeyword = new com.communKeywords.apkKeywords(),,,,17-04-2024 14:25:47,17-04-2024 14:25:47,"0,002s",PASSED
+authkeyword = new com.communKeywords.authentificationKeywords(),,,,17-04-2024 14:25:47,17-04-2024 14:25:47,"0,002s",PASSED
+authkeyword.resetLoginPage(),,,,17-04-2024 14:25:47,17-04-2024 14:25:56,"8,964s",PASSED
+"authkeyword.setAuthData(immatriculation, Mdp)",,,,17-04-2024 14:25:56,17-04-2024 14:26:05,"8,141s",PASSED
+authkeyword.Login(),,,,17-04-2024 14:26:05,17-04-2024 14:26:05,"0,307s",PASSED
+alertPath = authPage,,,,17-04-2024 14:26:05,17-04-2024 14:26:05,"0,003s",PASSED
+"authkeyword.verifyalertPresent(alertPath, ""Me connecter"")",,,,17-04-2024 14:26:05,17-04-2024 14:26:05,"0,344s",PASSED
+delay(5),,,,17-04-2024 14:26:05,17-04-2024 14:26:10,"5,015s",PASSED
+,,,,,,,
+Test Cases/Authentification/TC03_AuthentificationAvecIdentifiantInvalide,,,,17-04-2024 14:26:10,17-04-2024 14:26:44,"33,726s",PASSED
+apkkeyword = new com.communKeywords.apkKeywords(),,,,17-04-2024 14:26:11,17-04-2024 14:26:11,"0,002s",PASSED
+authkeyword = new com.communKeywords.authentificationKeywords(),,,,17-04-2024 14:26:11,17-04-2024 14:26:11,"0,002s",PASSED
+authkeyword.resetLoginPage(),,,,17-04-2024 14:26:11,17-04-2024 14:26:19,"8,876s",PASSED
+"authkeyword.setAuthData(immatriculation, Mdp)",,,,17-04-2024 14:26:19,17-04-2024 14:26:28,"8,243s",PASSED
+authkeyword.Login(),,,,17-04-2024 14:26:28,17-04-2024 14:26:28,"0,364s",PASSED
+alertPath = identifiantMdpInvalid,,,,17-04-2024 14:26:28,17-04-2024 14:26:28,"0,003s",PASSED
+"authkeyword.verifyalertPresent(alertPath, ""Identifiant ou mot de passe invalide"")",,,,17-04-2024 14:26:28,17-04-2024 14:26:29,"1,451s",PASSED
+delay(5),,,,17-04-2024 14:26:29,17-04-2024 14:26:34,"5,014s",PASSED
+authkeyword.ReturnToAuthPage(),,,,17-04-2024 14:26:34,17-04-2024 14:26:35,"0,216s",PASSED
+authkeyword.resetLoginPage(),,,,17-04-2024 14:26:35,17-04-2024 14:26:44,"9,321s",PASSED
+,,,,,,,
+Test Cases/Authentification/TC04_AuthentificationAvecIdentifiantPwdInvalide,,,,17-04-2024 14:26:44,17-04-2024 14:27:08,"24,015s",PASSED
+apkkeyword = new com.communKeywords.apkKeywords(),,,,17-04-2024 14:26:44,17-04-2024 14:26:44,"0,001s",PASSED
+authkeyword = new com.communKeywords.authentificationKeywords(),,,,17-04-2024 14:26:44,17-04-2024 14:26:44,"0,002s",PASSED
+authkeyword.resetLoginPage(),,,,17-04-2024 14:26:44,17-04-2024 14:26:53,"8,610s",PASSED
+"authkeyword.setAuthData(immatriculation, Mdp)",,,,17-04-2024 14:26:53,17-04-2024 14:27:01,"7,802s",PASSED
+authkeyword.Login(),,,,17-04-2024 14:27:01,17-04-2024 14:27:01,"0,350s",PASSED
+alertPath = identifiantMdpInvalid,,,,17-04-2024 14:27:01,17-04-2024 14:27:01,"0,003s",PASSED
+"authkeyword.verifyalertPresent(alertPath, ""Identifiant ou mot de passe invalide"")",,,,17-04-2024 14:27:01,17-04-2024 14:27:03,"1,700s",PASSED
+delay(5),,,,17-04-2024 14:27:03,17-04-2024 14:27:08,"5,008s",PASSED
+authkeyword.ReturnToAuthPage(),,,,17-04-2024 14:27:08,17-04-2024 14:27:08,"0,322s",PASSED
+,,,,,,,
+Test Cases/Authentification/TC05_AuthentificationAvecIdentifiantPwdVide,,,,17-04-2024 14:27:08,17-04-2024 14:27:33,"24,868s",PASSED
+apkkeyword = new com.communKeywords.apkKeywords(),,,,17-04-2024 14:27:09,17-04-2024 14:27:09,"0,003s",PASSED
+authkeyword = new com.communKeywords.authentificationKeywords(),,,,17-04-2024 14:27:09,17-04-2024 14:27:09,"0,003s",PASSED
+authkeyword.resetLoginPage(),,,,17-04-2024 14:27:09,17-04-2024 14:27:19,"9,694s",PASSED
+"authkeyword.setAuthData(immatriculation, Mdp)",,,,17-04-2024 14:27:19,17-04-2024 14:27:27,"8,407s",PASSED
+authkeyword.Login(),,,,17-04-2024 14:27:27,17-04-2024 14:27:28,"0,363s",PASSED
+alertPath = authPage,,,,17-04-2024 14:27:28,17-04-2024 14:27:28,"0,002s",PASSED
+"authkeyword.verifyalertPresent(alertPath, ""Me connecter"")",,,,17-04-2024 14:27:28,17-04-2024 14:27:28,"0,391s",PASSED
+delay(5),,,,17-04-2024 14:27:28,17-04-2024 14:27:33,"5,004s",PASSED
+,,,,,,,
+Test Cases/Authentification/TC06_AuthentificationValide,,,,17-04-2024 14:27:33,17-04-2024 14:28:03,"29,927s",PASSED
+apkkeyword = new com.communKeywords.apkKeywords(),,,,17-04-2024 14:27:33,17-04-2024 14:27:33,"0,004s",PASSED
+authkeyword = new com.communKeywords.authentificationKeywords(),,,,17-04-2024 14:27:33,17-04-2024 14:27:33,"0,003s",PASSED
+authkeyword.resetLoginPage(),,,,17-04-2024 14:27:33,17-04-2024 14:27:43,"9,537s",PASSED
+"authkeyword.setAuthData(immatriculation, Mdp)",,,,17-04-2024 14:27:43,17-04-2024 14:27:50,"7,456s",PASSED
+authkeyword.Login(),,,,17-04-2024 14:27:50,17-04-2024 14:27:51,"0,388s",PASSED
+authkeyword.authvalide(),,,,17-04-2024 14:27:51,17-04-2024 14:27:54,"3,918s",PASSED
+alertPath = bienvenue,,,,17-04-2024 14:27:54,17-04-2024 14:27:54,"0,002s",PASSED
+"authkeyword.verifyalertPresent(alertPath, ""Bienvenue,"")",,,,17-04-2024 14:27:54,17-04-2024 14:27:56,"1,059s",PASSED
+delay(5),,,,17-04-2024 14:27:56,17-04-2024 14:28:01,"5,009s",PASSED
+closeApplication(),,,,17-04-2024 14:28:01,17-04-2024 14:28:03,"2,284s",PASSED

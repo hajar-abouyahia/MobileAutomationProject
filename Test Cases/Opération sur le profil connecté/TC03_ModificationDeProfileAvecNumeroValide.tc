@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_ModificationDeProfileAvecNumeroValide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26cba63d-569c-4d91-a1d8-914f8f1899e4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e866cc74-ee0e-46bb-baa0-1abb7b177c92</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>52c1319e-1854-41c9-a56d-f3df054f2868</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c4ee506-57a5-413f-90b3-a1a501e791db</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'121577715'</defaultValue>
+      <description></description>
+      <id>e866cc74-ee0e-46bb-baa0-1abb7b177c92</id>
+      <masked>false</masked>
+      <name>immatriculation</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pca@2023'</defaultValue>
+      <description></description>
+      <id>52c1319e-1854-41c9-a56d-f3df054f2868</id>
+      <masked>false</masked>
+      <name>Mdp</name>
+   </variable>
+   <variable>
+      <defaultValue>'634222728'</defaultValue>
+      <description></description>
+      <id>4c4ee506-57a5-413f-90b3-a1a501e791db</id>
+      <masked>false</masked>
+      <name>NvNumero</name>
+   </variable>
+</TestCaseEntity>

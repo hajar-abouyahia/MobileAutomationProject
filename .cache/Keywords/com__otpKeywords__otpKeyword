@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "652D8CAE931AD91343114A7273038E8F",
+  "keywordClasses": [
+    {
+      "name": "com.otpKeywords.OtpVerification",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

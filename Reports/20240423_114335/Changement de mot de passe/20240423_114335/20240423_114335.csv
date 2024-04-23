@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Changement de mot de passe,,,,23-04-2024 11:43:41,23-04-2024 11:46:28,"2m - 47,612s",FAILED
+,,,,,,,
+Test Cases/Changement de mot de passe/TC00_ChangementMdpAvecMdpFaible,,,,23-04-2024 11:43:41,23-04-2024 11:45:08,"1m - 27,554s",PASSED
+apkkeyword = new com.communKeywords.apkKeywords(),,,,23-04-2024 11:43:42,23-04-2024 11:43:42,"0,027s",PASSED
+authkeyword = new com.communKeywords.authentificationKeywords(),,,,23-04-2024 11:43:42,23-04-2024 11:43:42,"0,023s",PASSED
+verificationKeyword = new com.communKeywords.verificationKeywords(),,,,23-04-2024 11:43:42,23-04-2024 11:43:42,"0,027s",PASSED
+editPasswordKeyword = new com.profileKeywords.changementDeMdpKeywords(),,,,23-04-2024 11:43:42,23-04-2024 11:43:42,"0,018s",PASSED
+apkkeyword.startApplication(),,,,23-04-2024 11:43:42,23-04-2024 11:44:24,"42,172s",PASSED
+apkkeyword.setLanguage(),,,,23-04-2024 11:44:24,23-04-2024 11:44:36,"12,460s",PASSED
+delay(1),,,,23-04-2024 11:44:36,23-04-2024 11:44:37,"1,019s",PASSED
+"authkeyword.setAuthData(immatriculation, Mdp)",,,,23-04-2024 11:44:37,23-04-2024 11:44:47,"10,183s",PASSED
+authkeyword.login(),,,,23-04-2024 11:44:47,23-04-2024 11:44:48,"0,415s",PASSED
+authkeyword.CancelAuthorization(),,,,23-04-2024 11:44:48,23-04-2024 11:44:51,"2,686s",PASSED
+editPasswordKeyword.editPassword(),,,,23-04-2024 11:44:51,23-04-2024 11:44:53,"2,230s",PASSED
+"editPasswordKeyword.setMdpData(mdpActuel, nvMdp, confirmerMdp)",,,,23-04-2024 11:44:53,23-04-2024 11:45:07,"13,985s",PASSED
+editPasswordKeyword.validate(),,,,23-04-2024 11:45:07,23-04-2024 11:45:07,"0,640s",PASSED
+alertPath = weakPwd,,,,23-04-2024 11:45:07,23-04-2024 11:45:07,"0,004s",PASSED
+"authkeyword.verifyalertPresent(alertPath, ""Veuillez entrer un mot de passe qui répond aux normes de sécurité requises ci-dessous"")",,,,23-04-2024 11:45:07,23-04-2024 11:45:08,"0,932s",PASSED
+,,,,,,,
+Test Cases/Changement de mot de passe/TC01_ChangementMdpAvecMdpActuelIncorrect,,,,23-04-2024 11:46:06,23-04-2024 11:46:28,"22,430s",FAILED
+verificationKeyword = new com.communKeywords.verificationKeywords(),,,,23-04-2024 11:46:06,23-04-2024 11:46:06,"0,000s",PASSED
+editPasswordKeyword = new com.profileKeywords.changementDeMdpKeywords(),,,,23-04-2024 11:46:06,23-04-2024 11:46:06,"0,000s",PASSED
+authkeyword = new com.communKeywords.authentificationKeywords(),,,,23-04-2024 11:46:06,23-04-2024 11:46:06,"0,000s",PASSED
+editPasswordKeyword.resetPwdPage(),,,,23-04-2024 11:46:06,23-04-2024 11:46:28,"22,333s",FAILED

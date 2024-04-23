@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Authentification" time="215.107" tests="8" failures="0" errors="0">
+   <testsuite name="Authentification" tests="8" failures="0" errors="0" time="215.107" skipped="0" timestamp="17-04-2024T14:56:19" hostname="DELL - DESKTOP-A1R3ASP" id="Test Suites/Authentification">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DELL\\git\\MobileAutomationProject\\Reports\\20240417_145613\\Authentification\\20240417_145613"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\git\\MobileAutomationProject\\Reports\\20240417_145613\\Authentification\\20240417_145613\\appium.log, C:\\Users\\DELL\\git\\MobileAutomationProject\\Reports\\20240417_145613\\Authentification\\20240417_145613\\appium_error.log, C:\\Users\\DELL\\git\\MobileAutomationProject\\Reports\\20240417_145613\\Authentification\\20240417_145613\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - DESKTOP-A1R3ASP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.1&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.1"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Authentification/TC00_AuthentificationAvecPwdVide" time="64.539" classname="Test Cases/Authentification/TC00_AuthentificationAvecPwdVide" status="PASSED">
+         <system-out><![CDATA[17-04-2024T14:56:19 - [TEST_CASE][PASSED] - Test Cases/Authentification/TC00_AuthentificationAvecPwdVide: Test Cases/Authentification/TC00_AuthentificationAvecPwdVide
+
+17-04-2024T14:56:20 - [TEST_STEP][PASSED] - apkkeyword = new com.communKeywords.apkKeywords(): null
+
+17-04-2024T14:56:20 - [TEST_STEP][PASSED] - authkeyword = new com.communKeywords.authentificationKeywords(): null
+
+17-04-2024T14:56:20 - [TEST_STEP][PASSED] - apkkeyword.startApplication(): Started app at: 'C:\Users\DELL\Downloads\app-release_last.apk'
+
+17-04-2024T14:56:21 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+17-04-2024T14:56:25 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+17-04-2024T14:56:25 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\DELL\.appium
+
+17-04-2024T14:56:25 - [MESSAGE][INFO] - appium outlog: C:\Users\DELL\git\MobileAutomationProject\Reports\20240417_145613\Authentification\20240417_145613\appium.log
+
+17-04-2024T14:56:25 - [MESSAGE][INFO] - appium errlog: C:\Users\DELL\git\MobileAutomationProject\Reports\20240417_145613\Authentification\20240417_145613\appium_error.log
+
+17-04-2024T14:56:29 - [MESSAGE][INFO] - Appium server started on port 51 861
+
+17-04-2024T14:56:54 - [MESSAGE][PASSED] - Started app at: 'C:\Users\DELL\Downloads\app-release_last.apk'
+
+17-04-2024T14:56:54 - [TEST_STEP][PASSED] - apkkeyword.setLanguage(): Tapped on element 'Object Repository/Authentification/android.widget.Button-cest compris'
+
+17-04-2024T14:56:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:56:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.ViewGroup'
+
+17-04-2024T14:56:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:56:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/language/android.widget.Button -Confirm language'
+
+17-04-2024T14:57:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-04-2024T14:57:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-Ressayer'
+
+17-04-2024T14:57:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-04-2024T14:57:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.Button-cest compris'
+
+17-04-2024T14:57:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+17-04-2024T14:57:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+17-04-2024T14:57:09 - [TEST_STEP][PASSED] - authkeyword.setAuthData(immatriculation, Mdp): Delayed 1 second(s)
+
+17-04-2024T14:57:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T14:57:11 - [MESSAGE][PASSED] - Send keys '121571775' on test object 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' successfully.
+
+17-04-2024T14:57:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T14:57:14 - [MESSAGE][PASSED] - Send keys '' on test object 'Object Repository/Authentification/android.widget.EditText - Mot de passe' successfully.
+
+17-04-2024T14:57:17 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T14:57:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+17-04-2024T14:57:18 - [TEST_STEP][PASSED] - authkeyword.Login(): Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T14:57:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T14:57:18 - [TEST_STEP][PASSED] - alertPath = authPage: null
+
+17-04-2024T14:57:18 - [TEST_STEP][PASSED] - authkeyword.verifyalertPresent(alertPath, "Me connecter"): Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Me connecter' are matched.
+
+17-04-2024T14:57:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Me connecter' are matched.
+
+17-04-2024T14:57:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+17-04-2024T14:57:24 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentification/TC01_AuthentificationAvecPwdInvalide" time="22.532" classname="Test Cases/Authentification/TC01_AuthentificationAvecPwdInvalide" status="PASSED">
+         <system-out><![CDATA[17-04-2024T14:57:24 - [TEST_CASE][PASSED] - Test Cases/Authentification/TC01_AuthentificationAvecPwdInvalide: Test Cases/Authentification/TC01_AuthentificationAvecPwdInvalide
+
+17-04-2024T14:57:24 - [TEST_STEP][PASSED] - apkkeyword = new com.communKeywords.apkKeywords(): null
+
+17-04-2024T14:57:24 - [TEST_STEP][PASSED] - authkeyword = new com.communKeywords.authentificationKeywords(): null
+
+17-04-2024T14:57:24 - [TEST_STEP][PASSED] - authkeyword.resetLoginPage(): Delayed 3 second(s)
+
+17-04-2024T14:57:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T14:57:26 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' text is cleared
+
+17-04-2024T14:57:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T14:57:27 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - Mot de passe' text is cleared
+
+17-04-2024T14:57:29 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T14:57:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-04-2024T14:57:32 - [TEST_STEP][PASSED] - authkeyword.setAuthData(immatriculation, Mdp): Delayed 1 second(s)
+
+17-04-2024T14:57:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T14:57:34 - [MESSAGE][PASSED] - Send keys '121571775' on test object 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' successfully.
+
+17-04-2024T14:57:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T14:57:36 - [MESSAGE][PASSED] - Send keys 'pca@2023' on test object 'Object Repository/Authentification/android.widget.EditText - Mot de passe' successfully.
+
+17-04-2024T14:57:38 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T14:57:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+17-04-2024T14:57:39 - [TEST_STEP][PASSED] - authkeyword.Login(): Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T14:57:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T14:57:40 - [TEST_STEP][PASSED] - alertPath = identifiantMdpInvalid: null
+
+17-04-2024T14:57:40 - [TEST_STEP][PASSED] - authkeyword.verifyalertPresent(alertPath, "Identifiant ou mot de passe invalide"): Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Identifiant ou mot de passe invalide' are matched.
+
+17-04-2024T14:57:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Identifiant ou mot de passe invalide' are matched.
+
+17-04-2024T14:57:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+17-04-2024T14:57:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+17-04-2024T14:57:46 - [TEST_STEP][PASSED] - authkeyword.ReturnToAuthPage(): Tapped on element 'Object Repository/Authentification/android.view.View-ok'
+
+17-04-2024T14:57:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-ok']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentification/TC02_AuthentificationAvecIdentifiantVide" time="22.421" classname="Test Cases/Authentification/TC02_AuthentificationAvecIdentifiantVide" status="PASSED">
+         <system-out><![CDATA[17-04-2024T14:57:46 - [TEST_CASE][PASSED] - Test Cases/Authentification/TC02_AuthentificationAvecIdentifiantVide: Test Cases/Authentification/TC02_AuthentificationAvecIdentifiantVide
+
+17-04-2024T14:57:47 - [TEST_STEP][PASSED] - apkkeyword = new com.communKeywords.apkKeywords(): null
+
+17-04-2024T14:57:47 - [TEST_STEP][PASSED] - authkeyword = new com.communKeywords.authentificationKeywords(): null
+
+17-04-2024T14:57:47 - [TEST_STEP][PASSED] - authkeyword.resetLoginPage(): Delayed 3 second(s)
+
+17-04-2024T14:57:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T14:57:48 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' text is cleared
+
+17-04-2024T14:57:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T14:57:50 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - Mot de passe' text is cleared
+
+17-04-2024T14:57:52 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T14:57:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-04-2024T14:57:55 - [TEST_STEP][PASSED] - authkeyword.setAuthData(immatriculation, Mdp): Delayed 1 second(s)
+
+17-04-2024T14:57:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T14:57:57 - [MESSAGE][PASSED] - Send keys '' on test object 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' successfully.
+
+17-04-2024T14:57:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:57:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T14:57:59 - [MESSAGE][PASSED] - Send keys 'Pca@2023' on test object 'Object Repository/Authentification/android.widget.EditText - Mot de passe' successfully.
+
+17-04-2024T14:58:02 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T14:58:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+17-04-2024T14:58:03 - [TEST_STEP][PASSED] - authkeyword.Login(): Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T14:58:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:58:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T14:58:03 - [TEST_STEP][PASSED] - alertPath = authPage: null
+
+17-04-2024T14:58:03 - [TEST_STEP][PASSED] - authkeyword.verifyalertPresent(alertPath, "Me connecter"): Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Me connecter' are matched.
+
+17-04-2024T14:58:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Me connecter' are matched.
+
+17-04-2024T14:58:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+17-04-2024T14:58:09 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentification/TC03_AuthentificationAvecIdentifiantInvalide" time="30.89" classname="Test Cases/Authentification/TC03_AuthentificationAvecIdentifiantInvalide" status="PASSED">
+         <system-out><![CDATA[17-04-2024T14:58:09 - [TEST_CASE][PASSED] - Test Cases/Authentification/TC03_AuthentificationAvecIdentifiantInvalide: Test Cases/Authentification/TC03_AuthentificationAvecIdentifiantInvalide
+
+17-04-2024T14:58:09 - [TEST_STEP][PASSED] - apkkeyword = new com.communKeywords.apkKeywords(): null
+
+17-04-2024T14:58:09 - [TEST_STEP][PASSED] - authkeyword = new com.communKeywords.authentificationKeywords(): null
+
+17-04-2024T14:58:09 - [TEST_STEP][PASSED] - authkeyword.resetLoginPage(): Delayed 3 second(s)
+
+17-04-2024T14:58:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:58:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T14:58:10 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' text is cleared
+
+17-04-2024T14:58:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:58:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T14:58:12 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - Mot de passe' text is cleared
+
+17-04-2024T14:58:14 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T14:58:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-04-2024T14:58:17 - [TEST_STEP][PASSED] - authkeyword.setAuthData(immatriculation, Mdp): Delayed 1 second(s)
+
+17-04-2024T14:58:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:58:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T14:58:19 - [MESSAGE][PASSED] - Send keys '12157177' on test object 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' successfully.
+
+17-04-2024T14:58:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:58:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T14:58:21 - [MESSAGE][PASSED] - Send keys 'Pca@2023' on test object 'Object Repository/Authentification/android.widget.EditText - Mot de passe' successfully.
+
+17-04-2024T14:58:23 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T14:58:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+17-04-2024T14:58:24 - [TEST_STEP][PASSED] - authkeyword.Login(): Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T14:58:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:58:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T14:58:24 - [TEST_STEP][PASSED] - alertPath = identifiantMdpInvalid: null
+
+17-04-2024T14:58:24 - [TEST_STEP][PASSED] - authkeyword.verifyalertPresent(alertPath, "Identifiant ou mot de passe invalide"): Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Identifiant ou mot de passe invalide' are matched.
+
+17-04-2024T14:58:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Identifiant ou mot de passe invalide' are matched.
+
+17-04-2024T14:58:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+17-04-2024T14:58:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+17-04-2024T14:58:31 - [TEST_STEP][PASSED] - authkeyword.ReturnToAuthPage(): Tapped on element 'Object Repository/Authentification/android.view.View-ok'
+
+17-04-2024T14:58:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:58:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-ok'
+
+17-04-2024T14:58:31 - [TEST_STEP][PASSED] - authkeyword.resetLoginPage(): Delayed 3 second(s)
+
+17-04-2024T14:58:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:58:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T14:58:33 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' text is cleared
+
+17-04-2024T14:58:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:58:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T14:58:34 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - Mot de passe' text is cleared
+
+17-04-2024T14:58:37 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T14:58:40 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentification/TC04_AuthentificationAvecIdentifiantPwdInvalide" time="22.205" classname="Test Cases/Authentification/TC04_AuthentificationAvecIdentifiantPwdInvalide" status="PASSED">
+         <system-out><![CDATA[17-04-2024T14:58:40 - [TEST_CASE][PASSED] - Test Cases/Authentification/TC04_AuthentificationAvecIdentifiantPwdInvalide: Test Cases/Authentification/TC04_AuthentificationAvecIdentifiantPwdInvalide
+
+17-04-2024T14:58:40 - [TEST_STEP][PASSED] - apkkeyword = new com.communKeywords.apkKeywords(): null
+
+17-04-2024T14:58:40 - [TEST_STEP][PASSED] - authkeyword = new com.communKeywords.authentificationKeywords(): null
+
+17-04-2024T14:58:40 - [TEST_STEP][PASSED] - authkeyword.resetLoginPage(): Delayed 3 second(s)
+
+17-04-2024T14:58:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:58:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T14:58:41 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' text is cleared
+
+17-04-2024T14:58:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:58:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T14:58:43 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - Mot de passe' text is cleared
+
+17-04-2024T14:58:45 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T14:58:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-04-2024T14:58:48 - [TEST_STEP][PASSED] - authkeyword.setAuthData(immatriculation, Mdp): Delayed 1 second(s)
+
+17-04-2024T14:58:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:58:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T14:58:50 - [MESSAGE][PASSED] - Send keys '12157177' on test object 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' successfully.
+
+17-04-2024T14:58:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:58:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T14:58:52 - [MESSAGE][PASSED] - Send keys 'pca@2023' on test object 'Object Repository/Authentification/android.widget.EditText - Mot de passe' successfully.
+
+17-04-2024T14:58:54 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T14:58:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+17-04-2024T14:58:55 - [TEST_STEP][PASSED] - authkeyword.Login(): Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T14:58:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:58:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T14:58:55 - [TEST_STEP][PASSED] - alertPath = identifiantMdpInvalid: null
+
+17-04-2024T14:58:55 - [TEST_STEP][PASSED] - authkeyword.verifyalertPresent(alertPath, "Identifiant ou mot de passe invalide"): Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Identifiant ou mot de passe invalide' are matched.
+
+17-04-2024T14:58:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Identifiant ou mot de passe invalide' are matched.
+
+17-04-2024T14:58:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+17-04-2024T14:59:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+17-04-2024T14:59:02 - [TEST_STEP][PASSED] - authkeyword.ReturnToAuthPage(): Tapped on element 'Object Repository/Authentification/android.view.View-ok'
+
+17-04-2024T14:59:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-ok']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentification/TC05_AuthentificationAvecIdentifiantPwdVide" time="22.119" classname="Test Cases/Authentification/TC05_AuthentificationAvecIdentifiantPwdVide" status="PASSED">
+         <system-out><![CDATA[17-04-2024T14:59:02 - [TEST_CASE][PASSED] - Test Cases/Authentification/TC05_AuthentificationAvecIdentifiantPwdVide: Test Cases/Authentification/TC05_AuthentificationAvecIdentifiantPwdVide
+
+17-04-2024T14:59:02 - [TEST_STEP][PASSED] - apkkeyword = new com.communKeywords.apkKeywords(): null
+
+17-04-2024T14:59:02 - [TEST_STEP][PASSED] - authkeyword = new com.communKeywords.authentificationKeywords(): null
+
+17-04-2024T14:59:02 - [TEST_STEP][PASSED] - authkeyword.resetLoginPage(): Delayed 3 second(s)
+
+17-04-2024T14:59:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T14:59:04 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' text is cleared
+
+17-04-2024T14:59:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T14:59:06 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - Mot de passe' text is cleared
+
+17-04-2024T14:59:08 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T14:59:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-04-2024T14:59:11 - [TEST_STEP][PASSED] - authkeyword.setAuthData(immatriculation, Mdp): Delayed 1 second(s)
+
+17-04-2024T14:59:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T14:59:13 - [MESSAGE][PASSED] - Send keys '' on test object 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' successfully.
+
+17-04-2024T14:59:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T14:59:15 - [MESSAGE][PASSED] - Send keys '' on test object 'Object Repository/Authentification/android.widget.EditText - Mot de passe' successfully.
+
+17-04-2024T14:59:17 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T14:59:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+17-04-2024T14:59:18 - [TEST_STEP][PASSED] - authkeyword.Login(): Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T14:59:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T14:59:19 - [TEST_STEP][PASSED] - alertPath = authPage: null
+
+17-04-2024T14:59:19 - [TEST_STEP][PASSED] - authkeyword.verifyalertPresent(alertPath, "Me connecter"): Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Me connecter' are matched.
+
+17-04-2024T14:59:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Me connecter' are matched.
+
+17-04-2024T14:59:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+17-04-2024T14:59:24 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentification/TC06_AuthentificationValide" time="25.215" classname="Test Cases/Authentification/TC06_AuthentificationValide" status="PASSED">
+         <system-out><![CDATA[17-04-2024T14:59:24 - [TEST_CASE][PASSED] - Test Cases/Authentification/TC06_AuthentificationValide: Test Cases/Authentification/TC06_AuthentificationValide
+
+17-04-2024T14:59:24 - [TEST_STEP][PASSED] - apkkeyword = new com.communKeywords.apkKeywords(): null
+
+17-04-2024T14:59:24 - [TEST_STEP][PASSED] - authkeyword = new com.communKeywords.authentificationKeywords(): null
+
+17-04-2024T14:59:24 - [TEST_STEP][PASSED] - authkeyword.resetLoginPage(): Delayed 3 second(s)
+
+17-04-2024T14:59:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T14:59:26 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' text is cleared
+
+17-04-2024T14:59:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T14:59:27 - [MESSAGE][PASSED] - Element 'Object Repository/Authentification/android.widget.EditText - Mot de passe' text is cleared
+
+17-04-2024T14:59:29 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T14:59:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-04-2024T14:59:32 - [TEST_STEP][PASSED] - authkeyword.setAuthData(immatriculation, Mdp): Delayed 1 second(s)
+
+17-04-2024T14:59:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - N Immatriculation'
+
+17-04-2024T14:59:34 - [MESSAGE][PASSED] - Send keys '121571775
+' on test object 'Object Repository/Authentification/android.widget.EditText - N Immatriculation' successfully.
+
+17-04-2024T14:59:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.EditText - Mot de passe'
+
+17-04-2024T14:59:37 - [MESSAGE][PASSED] - Send keys 'Pca@2023' on test object 'Object Repository/Authentification/android.widget.EditText - Mot de passe' successfully.
+
+17-04-2024T14:59:39 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-04-2024T14:59:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+17-04-2024T14:59:40 - [TEST_STEP][PASSED] - authkeyword.Login(): Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T14:59:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.view.View-Me connecte'
+
+17-04-2024T14:59:40 - [TEST_STEP][PASSED] - authkeyword.authvalide(): Tapped on element 'Object Repository/Authentification/android.widget.Button-cest compris'
+
+17-04-2024T14:59:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.Button - ANNULER'
+
+17-04-2024T14:59:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.Button-cest compris'
+
+17-04-2024T14:59:43 - [TEST_STEP][PASSED] - alertPath = bienvenue: null
+
+17-04-2024T14:59:43 - [TEST_STEP][PASSED] - authkeyword.verifyalertPresent(alertPath, "Bienvenue,"): Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Bienvenue,' are matched.
+
+17-04-2024T14:59:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Authentification/android.widget.TextView - Bienvenue,' are matched.
+
+17-04-2024T14:59:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+17-04-2024T14:59:49 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentification/TC07_SeDeconnecter" time="4.85" classname="Test Cases/Authentification/TC07_SeDeconnecter" status="PASSED">
+         <system-out><![CDATA[17-04-2024T14:59:49 - [TEST_CASE][PASSED] - Test Cases/Authentification/TC07_SeDeconnecter: Test Cases/Authentification/TC07_SeDeconnecter
+
+17-04-2024T14:59:49 - [TEST_STEP][PASSED] - authkeyword = new com.communKeywords.authentificationKeywords(): null
+
+17-04-2024T14:59:49 - [TEST_STEP][PASSED] - authkeyword.SeDeconnecter(): Tapped on element 'Object Repository/Authentification/android.widget.Button - OUI'
+
+17-04-2024T14:59:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.ImageView (1)'
+
+17-04-2024T14:59:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.TextView - Se dconnecter'
+
+17-04-2024T14:59:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-04-2024T14:59:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authentification/android.widget.Button - OUI'
+
+17-04-2024T14:59:52 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+17-04-2024T14:59:54 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-04-2024T14:56:19 - [TEST_SUITE][PASSED] - Authentification: Test Cases/Authentification/TC07_SeDeconnecter]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

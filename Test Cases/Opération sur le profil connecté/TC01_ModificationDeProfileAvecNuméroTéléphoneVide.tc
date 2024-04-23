@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_ModificationDeProfileAvecNuméroTéléphoneVide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>accafe72-6da6-4511-91f0-bed9bee4d51e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ba54d72-8324-4d22-9f3f-f319fa7137dc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ba54d72-8324-4d22-9f3f-f319fa7137dc</id>
+      <masked>false</masked>
+      <name>NvNumero</name>
+   </variable>
+</TestCaseEntity>
