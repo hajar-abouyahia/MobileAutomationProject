@@ -2126,6 +2126,6 @@
 [38;5;16m[AppiumDriver@42d3][0m Removing session 'c20e21bb-f225-4513-afe1-72e87765f6f9' from our master session list
 [38;5;48m[AndroidUiautomator2Driver@c24f (c20e21bb)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
 [38;5;64m[ADB][0m ma.neoxia.macnss was successfully uninstalled
-[38;5;48m[AndroidUiautomator2Driver@c24f (c20e21bb)][0m Unable to remove system port forward: Error executing adbExec. Original error: 'Command 'C:\\Users\\DELL\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 forward --remove tcp\:57136' exited with code 1'; Command output: adb.exe: error: listener 'tcp:57136' not found
+[38;5;48m[AndroidUiautomator2Driver@c24f (c20e21bb)][0m Unable to remove system port forward: Error executing adbExec. Original error: 'Command 'C:\\Users\\DELL\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 forward --remove tcp\:57136' exited with code 1'; Command output: adb.exe: error: listener 'tcp:57136' not found
 [38;5;48m[AndroidUiautomator2Driver@c24f (c20e21bb)][0m 
 [38;5;48m[AndroidUiautomator2Driver@c24f (c20e21bb)][0m Restoring hidden api policy to the device default configuration
